@@ -1,6 +1,11 @@
 package com.project.ds;
 
 public class ReverseNumber {
+    /**
+     *
+     * @param num
+     * @return
+     */
     public static int reverse(int num) {
         int min = Integer.MIN_VALUE;
         int max = Integer.MAX_VALUE;

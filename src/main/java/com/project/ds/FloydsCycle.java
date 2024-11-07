@@ -56,7 +56,7 @@ public class FloydsCycle {
      * @param arr
      * @return
      */
-    static int findDuplicate(int[] arr) {
+    public static int findDuplicate(int[] arr) {
         int hare = 0, tortoise = 0;
         do {
             tortoise = arr[tortoise];

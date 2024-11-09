@@ -1,7 +1,5 @@
 package com.project.ds.linkedlist;
 
-import java.util.LinkedList;
-
 public class MyLinkedList {
     Node head = null;
     Node tail = null;

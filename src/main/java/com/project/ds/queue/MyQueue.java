@@ -61,6 +61,18 @@ public class MyQueue {
         }
     }
 
+    public Node getFront() {
+        return front;
+    }
+
+    public Node getRear() {
+        return rear;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
     public static void main(String[] args) {
         MyQueue item = new MyQueue(1);
         item.enqueue(2);

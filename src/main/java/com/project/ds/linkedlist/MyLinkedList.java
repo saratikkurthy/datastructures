@@ -66,6 +66,25 @@ public class MyLinkedList {
     }
 
     /**
+     * @return
+     */
+
+    public  Node removeLast() {
+        if (length == 0)
+            return null;
+        Node temp = head;
+        Node pre = head;
+        while (temp.next != null) {
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        length--;
+        return tail;
+    }
+
+    /**
      * @param args
      */
 
@@ -79,8 +98,10 @@ public class MyLinkedList {
         list.insert(3);
         list.printList();
         System.out.println();
-        System.out.println("Length of Linked List:"+list.length);
-        System.out.println("First element of Linked List:"+list.head.value);
-        System.out.println("Last element of Linked List:"+list.tail.value);
+        System.out.println("Length of Linked List:" + list.length);
+        System.out.println("First element of Linked List:" + list.head.value);
+        System.out.println("Last element of Linked List:" + list.tail.value);
+        System.out.println("Last element of Linked List is:"+list.removeLast().value);
+        list.printList();
     }
 }

@@ -17,7 +17,7 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-        char[] input = {'R', 'e', 'v', 'e', 'r', 's', 'e'};
+        char[] input = {'R', 'e', 'v', 'e', 'r', 's', 'e','d'};
         reverseString(input);
         System.out.println("Reverse :" + Arrays.toString(input));
 

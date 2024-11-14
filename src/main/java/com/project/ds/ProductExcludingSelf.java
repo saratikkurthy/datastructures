@@ -15,7 +15,7 @@ public class ProductExcludingSelf {
             if (nums[i] != 0) {
                 nums[i] = product / nums[i];
             } else {
-                nums[i] = 0;
+                nums[i] = product;
             }
 
         }

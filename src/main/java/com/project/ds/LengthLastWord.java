@@ -22,5 +22,7 @@ public class LengthLastWord {
         System.out.println(lengthLastWord(input));
         input="   ";
         System.out.println(lengthLastWord(input));
+        input="  This is length word with huge spacessss      ";
+        System.out.println(lengthLastWord(input));
     }
 }

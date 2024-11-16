@@ -1,6 +1,6 @@
 package com.project.ds.test;
 
-import com.project.ds.ReverseNumber;
+import com.project.ds.numeric.ReverseNumber;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

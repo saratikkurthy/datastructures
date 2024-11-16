@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.string;
 
 
 import java.util.Arrays;

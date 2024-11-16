@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.string;
 
 public class LongestPrefix {
     /**

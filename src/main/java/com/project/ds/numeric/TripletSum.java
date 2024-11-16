@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.numeric;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package com.project.ds.test;
 
-import com.project.ds.PalindromeNumber;
+import com.project.ds.numeric.PalindromeNumber;
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class PalindromeNumberTest {

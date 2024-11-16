@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.basic;
 
 public class NumberBits {
     public static int numBits(int num) {

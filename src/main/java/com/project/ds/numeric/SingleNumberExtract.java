@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.numeric;
 
 public class SingleNumberExtract {
     public static int findSingle(int[] nums){

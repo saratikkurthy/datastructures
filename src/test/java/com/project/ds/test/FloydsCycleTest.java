@@ -1,7 +1,7 @@
 package com.project.ds.test;
 import static org.junit.Assert.*;
 
-import com.project.ds.FloydsCycle;
+import com.project.ds.numeric.FloydsCycle;
 import org.junit.Test;
 
 public class FloydsCycleTest {

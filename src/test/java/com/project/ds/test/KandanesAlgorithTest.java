@@ -1,6 +1,6 @@
 package com.project.ds.test;
 
-import com.project.ds.KadanesAlgorithm;
+import com.project.ds.numeric.KadanesAlgorithm;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

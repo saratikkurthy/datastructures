@@ -1,4 +1,4 @@
-package com.project.ds;
+package com.project.ds.numeric;
 
 public class PalindromeNumber {
     public static boolean isPalindrome(int number){

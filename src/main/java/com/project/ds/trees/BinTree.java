@@ -17,6 +17,7 @@ class BinTree {
         root.left = new Node(3);
         root.right = new Node(4);
         root.left.left = new Node(5);
+
         // Connect binary tree nodes
         System.out.println("Root.left:"+root.left.data);
         System.out.println("Root.right:"+root.right.data);

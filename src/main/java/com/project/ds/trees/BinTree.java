@@ -13,16 +13,13 @@ class Node {
 class BinTree {
     public static void main(String[] args) {
         // Initialize and allocate memory for tree nodes
-        Node firstNode = new Node(2);
-        Node secondNode = new Node(3);
-        Node thirdNode = new Node(4);
-        Node fourthNode = new Node(5);
-
+        Node root = new Node(2);
+        root.left = new Node(3);
+        root.right = new Node(4);
+        root.left.left = new Node(5);
         // Connect binary tree nodes
-        firstNode.left = secondNode;
-        firstNode.right = thirdNode;
-        secondNode.left = fourthNode;
-        System.out.println("Node:"+firstNode.left.data);
+        System.out.println("Root.left:"+root.left.data);
+        System.out.println("Root.right:"+root.right.data);
 
     }
 }

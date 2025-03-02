@@ -3,7 +3,7 @@ package com.project.matrix;
 import java.util.Scanner;
 
 public class SimpleMatrix {
-    public static void main(String args[]){
+    public static void main(String... args){
         int rows,cols;
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter number of rows:");

@@ -3,7 +3,7 @@ package com.project.matrix;
 import java.util.Scanner;
 
 public class DeterminantMatrix {
-    public static void main(String args[]){
+    public static void main(String... args){
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter rows for matrix:");
         int rows=scanner.nextInt();

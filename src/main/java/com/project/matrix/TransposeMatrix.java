@@ -3,7 +3,7 @@ package com.project.matrix;
 import java.util.Scanner;
 
 public class TransposeMatrix {
-    public static void main(String args[]){
+    public static void main(String... args){
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter Matrix Row size:");
         int rows=scanner.nextInt();

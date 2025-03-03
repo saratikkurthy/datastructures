@@ -9,7 +9,7 @@ public class LongSubstring {
     }
 
     public static void main(String[] args) {
-        String input = "abcabagh";
+        String input = "abcabaghdcf";
         System.out.println("Longest Substring of Input" + input + " is:" + longSubstring(input));
     }
 }

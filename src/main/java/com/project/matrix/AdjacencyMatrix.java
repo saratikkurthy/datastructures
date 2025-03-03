@@ -58,13 +58,15 @@ public class AdjacencyMatrix {
     public static void main(String[] args)
     {
         // Create a new graph with 4 vertices
-        AdjacencyMatrix graph = new AdjacencyMatrix(4);
+        AdjacencyMatrix graph = new AdjacencyMatrix(5);
 
         // Add edges to the graph
         graph.addEdge(0, 1);
         graph.addEdge(1, 2);
         graph.addEdge(2, 0);
         graph.addEdge(1, 3);
+        graph.addEdge(0, 4);
+        graph.addEdge(2, 4);
 
         // Print the adjacency matrix representation of the
         // graph
@@ -86,6 +88,18 @@ public class AdjacencyMatrix {
         graph.removeEdge(1, 2);
         System.out.println(
                 "After removing edge between vertices 1 and 2:");
+
+        graph.printGraph();
+
+        graph.addEdge(1, 2);
+        System.out.println(
+                "After adding edge between vertices 1 and 2:");
+
+        graph.printGraph();
+
+        graph.addEdge(2, 3);
+        System.out.println(
+                "After adding edge between vertices 2 and 3:");
 
         graph.printGraph();
     }

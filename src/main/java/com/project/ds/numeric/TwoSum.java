@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TwoSum {
     public static void main(String... args){
         int[] input={3,4,1,0,11,5,6,-1,-4,2};
-        int[] result=doubleSum(input,8);
+        int[] result=doubleSum(input,10);
         System.out.println("Sum for 10 found in combination of "+Arrays.toString(result));
 
     }

@@ -9,8 +9,8 @@ public class SumToK {
      * @param args
      */
     public static void main(String[] args){
-        int[] nums = {3,11,5,2,1,6};
-        System.out.println(findPair(nums,7));
+        int[] nums = {3,11,5,2,-1,6};
+        System.out.println(findPair(nums,10));
     }
 
     /**
@@ -22,7 +22,10 @@ public class SumToK {
     static boolean findPair(int[] arr, int k){
         HashMap<Integer,Boolean> visited = new HashMap<Integer,Boolean>();
         for(int element : arr){
-            if(visited.containsKey(k-element)) return true;
+            if(visited.containsKey(k-element)) {
+                System.out.println("Numbers are "+(k-element)+" and "+element);
+                return true;
+            }
             else visited.put(element, true);
         }
         return false;

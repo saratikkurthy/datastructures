@@ -17,7 +17,7 @@ public class FourNumberSum {
                    Collections.addAll(Arrays.asList(numMap.get(difference),nums[i],nums[j]));
                    Integer[] temp=numMap.get(difference).toArray(new Integer[]{});
                    //result.add(numMap.get(difference));
-                   result.add(Arrays.asList(temp[0],temp[1],nums[i],nums[j]));
+                   result.add(Arrays.asList(temp[1],temp[0],nums[i],nums[j]));
                }
             }
             for(int k=0;k<i;k++){
@@ -45,9 +45,6 @@ public class FourNumberSum {
     }
     public static void main(String... args){
         int[] input={7,6,4,-1,1,2};
-
         System.out.println(fourSum(input,16));
-
-
     }
 }

@@ -4,7 +4,8 @@ public class MaxSubaaraySum {
     public int maxSubArray(int[] nums){
         int sum=0;
         int max=nums[0];
-        int currentSum=nums[0];;
+        int currentSum=nums[0];
+        //Time Complexity O(n)
         for(int i=1;i<nums.length;i++){
             currentSum=Math.max(nums[i],currentSum+nums[i]);
             max=Math.max(max,currentSum);

@@ -21,6 +21,6 @@ public class MaxProdSubArray {
     }
     public static void main(String... args){
         int[] nums={1,-2,0,4,5};
-        System.out.println("Max Product Subarray:"+maxProd(nums));
+        System.out.println("Max Product Sub array:"+maxProd(nums));
     }
 }
